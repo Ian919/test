@@ -1,0 +1,185 @@
+@media screen and (min-width: 376px) {
+  .signIn {
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    .signIn__item_reg {
+      width: 606px;
+      height: 1024px;
+      background: #ffffff;
+     
+
+      button {
+        margin-top: 24px;
+        width: 366px;
+        height: 40px;
+        background: #e4163a;
+        border-radius: 4px;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        align-items: center;
+        text-align: center;
+        border-color: red;
+        color: #ffffff;
+      }
+      > a:last-child {
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        align-items: center;
+        color: #707070;
+        margin-left: 95px;
+        margin-top: 24px;
+      }
+    }
+    .header {
+      position: relative;
+      width: 130px;
+      height: 50px;
+      font-family: 'Avenir';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 49px;
+      color: #344472;
+      margin-top: 340px;
+      margin-left: 120px;
+    }
+    .signIn__login {
+      display: block;
+      a:first-child {
+        width: 366px;
+        height: 18px;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: #707070;
+      }
+      div:first-child {
+        margin-top: 8px;
+      }
+    }
+
+    .signIn__password {
+      display: block;
+      div:first-child {
+        margin-top: 8px;
+      }
+      a:first-child {
+        width: 366px;
+        height: 18px;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: #707070;
+      }
+    }
+    .signIn__item_img {
+      width: 834px;
+      height: 1024px;
+      background-color: #f5fbff;
+      img {
+        width: 605.46px;
+        height: 412.05px;
+        margin-top: 306px;
+        margin-left: 114px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  .signIn {
+    width: 375px;
+    height: 667px;
+  }
+  .signIn__item_reg {
+        margin-top: 159px;
+    > div:last-child {
+      margin-left: 93px;
+      margin-top: 24px;
+      font-family: 'Avenir';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      color: #707070;
+      a {
+        color: red;
+        text-decoration-color: #e4163a;
+      }
+    }
+
+    button {
+      margin-top: 24px;
+      margin-left: 24px;
+      width: 327px;
+      height: 40px;
+      background: #e4163a;
+      border-radius: 4px;
+      font-family: 'Avenir';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      align-items: center;
+      text-align: center;
+      border-color: red;
+      color: #ffffff;
+      outline: none;
+    }
+  }
+  .header{
+    position: relative;
+
+    margin-left: 123px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #344472;
+  }
+  .signIn__login {
+    display: block;
+    margin-left: 24px;
+    margin-top: 32px;
+    a {
+      font-family: 'Avenir';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 25px;
+      color: #707070;
+    }
+  }
+  .Input_eye {
+    position: relative;
+  }
+  .signIn__password {
+    margin-top: 24px;
+    margin-left: 24px;
+    a {
+      margin-top: 8px;
+      font-family: 'Avenir';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 25px;
+      color: #707070;
+    }
+  }
+  .signIn__item_img {
+    display: none;
+  }
+}

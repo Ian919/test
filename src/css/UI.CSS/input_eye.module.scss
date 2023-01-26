@@ -1,0 +1,85 @@
+@media screen and (min-width: 376px) {.password__label {
+  display: flex;
+  .password__input_eye {
+    outline: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    background: #f6f6f6;
+    border-radius: 4px 4px 0 0;
+    height: 40px;
+    width: 296px;
+  }
+  .password__btn {
+    width: 70px;
+    border-radius: 0 0 4px 4px;
+    background: #f6f6f6;
+    height: 42px;
+    display: block;
+    &::after {
+      display: flex;
+      position: relative;
+      content: '';
+      top: 19px;
+      right: -34px;
+      width: 17.951px;
+      height: 2px;
+      background: #dadada;
+      transform: rotate(45deg);
+      float: right;
+    }
+
+    
+  }
+  img {
+    position: relative;
+  height: 13.15px;
+  width: 22.22px;
+  margin: 13.89px;
+  margin-left: 12,78px;
+  float: right;
+}
+}
+}
+
+@media screen and (max-width:375px) {
+  .password__label {
+    display: flex;}
+  .password__input_eye {
+    outline: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    background: #f6f6f6;
+    border-radius: 4px 4px 0 0;
+    height: 40px;
+    width: 296px;
+  }
+  .password__btn {
+    width: 31px;
+    border-radius: 0 0 4px 4px;
+    background: #f6f6f6;
+    height: 42px;
+    display: block;
+    &::after {
+      display: flex;
+      position: relative;
+      content: '';
+      width: 17.951px;
+      height: 2px;
+      background: #dadada;
+      transform: rotate(45deg);
+      top: -8px;
+      right: 3px;
+    }
+  }
+  img {
+    position: relative;
+  height: 13.15px;
+  width: 22.22px;
+  margin-top: 15px;
+  margin-right: 13.89px;
+}
+}

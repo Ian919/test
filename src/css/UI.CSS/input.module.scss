@@ -1,0 +1,22 @@
+@media screen and (min-width:376px) {.input {
+    width: 366px;
+    height: 40px;
+    background: #f6f6f6;
+    border-radius: 4px;
+    border-color: #f6f6f6;
+    border-left: none;
+    border-top: none;
+  }
+}
+@media screen and (max-width:375px) {
+  .input {
+    width: 327px;
+    height: 40px;
+    background: #f6f6f6;
+    border-radius: 4px;
+    border-color: #f6f6f6;
+    border-left: none;
+    border-top: none;
+  }
+  
+}
